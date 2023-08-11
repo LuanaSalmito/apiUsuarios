@@ -30,10 +30,11 @@ public class UsuarioRepository {
     public Usuario findById(Integer id){
         System.out.printf("FIND/id - Recebendo o id: %d para localizar um usuário%n", id);
         return new Usuario("Luana","password");
+
     }
     public Usuario findByUsername(String username){
         System.out.printf("FIND/username - Recebendo o usernamae: %s para localizar um usuário%n", username);
-        return new Usuario("Luana","password");
+        return new  Usuario("Luana","password");
     }
 
 
